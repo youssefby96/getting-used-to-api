@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #dfe2e2;
+}
+.border-bottom {
+text-align: center;
+justify-content: space-around;
+}
+
+.avatar {
+  z-index: 1;
+  border-radius:50%;
+  background-color: rgba(11, 88, 133, 0.884);
+  color: white;
+  border: 10px solid rgba(255, 255, 255, 0.979);
+  font-size: 38px;
+  text-align: center;
+  padding: 23px;
+  margin: 20px auto;
+  width: 120px;
+}
+
+.card {
+  margin: 10px;
+  background-color: rgba(65, 124, 124, 0.315);
+}
+
+.card-back {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 35%;
+  width: 100%;
+  background-color: rgba(9, 27, 187, 0.664);
+}
